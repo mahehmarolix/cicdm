@@ -8,9 +8,9 @@ RUN npm install
 
 COPY . .
 
-ENV PORT=6000
+ENV PORT=7000
 ENV STATIC_DIR="./client"
 
-EXPOSE 6000
+EXPOSE 7000
 
 CMD ["node", "index.js"]
