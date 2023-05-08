@@ -13,4 +13,4 @@ ENV STATIC_DIR="./client"
 
 EXPOSE 6000
 
-CMD ["node", "server.js"]
+CMD ["node", "index.js"]
